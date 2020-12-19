@@ -1,0 +1,151 @@
+body {
+    background-color: rgb(248, 248, 248);
+}
+
+
+.main-container{
+    background-color: #fff;
+    border: 2px solid rgb(231, 229, 229); 
+    margin: auto;
+    width: 329px;
+    height: 528px;
+}
+.imagecontainer{
+    margin-top: 38px;
+    margin-left: 54px;
+    width: 222px;
+    height: 362px;
+}
+
+.imagecontainer:hover > img{
+        filter: brightness(75%) ;
+}
+
+.bcont{
+    height: 40px;
+    width: 222px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: auto;
+    margin-top: -44px;
+    filter: brightness(100%);
+    opacity: 0;
+    transition: 0.2s opacity;
+}
+
+
+.imagecontainer:hover > .bcont{
+    opacity: 1;
+}
+
+button{
+    margin: auto;
+    display: inline-flex;
+    height: 32px;
+    margin-left: 15px;
+    margin-top: 4px;
+    outline: none;
+
+}
+
+.b1{
+    width: 94px;
+    color: white;
+    background-color: #C82257;
+    border-style: none;
+    border-radius: 3px;
+}
+
+.b2{
+    width: 81px;
+    border-style: none;
+    color: black;
+    background-color: white;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 3px;
+}
+
+p.t1{
+    font-family: sans-serif;
+    margin-top: 10px;
+    font-weight: 600;
+    margin-left: 54px;
+    font-size: bold;
+}
+
+p.t2{
+    font-weight: initial;
+    font-size: smaller;
+    margin-top: -13px;
+    margin-left: 54px;
+    font-family: unset;
+    margin-bottom: 0;
+}
+
+.line{
+    margin-top: -3px;
+    display: inline-flex;
+    margin-left: 54px; 
+    font-size: 14px;  
+}
+
+.t3{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.t4{
+    color:#707070;
+    text-decoration: line-through;
+    margin-left: 14px;
+}
+
+.t5{
+    color: #C82257;
+    margin-left: 10px;
+}
+
+.Modal{
+    height: 116px;
+    width: 222px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: -168px;
+}
+
+.modhead{
+    padding-top: 11px;
+    color: #707070;
+    font-family: sans-serif;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.sizcont button{
+    margin-top: 13px;
+    margin-right: -3px;
+    height: 30px;
+    border-radius: 50%;
+    width: 29px;
+    padding: 5px; 
+    background-color: white;
+    border: 1px solid #707070;
+    color: #707070;
+    outline: none;
+}
+
+.sizcont .s1{
+    margin-left: 18px;
+}
+
+.sizcont .s3{
+    border: 1px solid #C82257;
+    color: #C82257;
+    padding-left: 8px;
+}
+
+.sizcont .s2{
+    padding-left: 9px;
+}
+
+.sizcont .s4{
+    padding-left: 10px;
+}
